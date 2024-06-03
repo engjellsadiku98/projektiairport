@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: poppins;
+}
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.box{
+    width: 500px;
+    height: 670px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+.log{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.email{
+    width: 420px;
+    margin-top: 30px;
+    border: 2px solid;
+    border-color: lightgray;
+    padding: 17px;
+    margin-left: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.name{
+    width: 420px;
+    margin-top: 30px;
+    border: 2px solid;
+    border-color: lightgray;
+    padding: 17px;
+    margin-left: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+.lastname{
+    width: 420px;
+    margin-top: 30px;
+    border: 2px solid;
+    border-color: lightgray;
+    padding: 17px;
+    margin-left: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+.lastname:hover{
+    border-color: #4267b2;
+}
+
+.name:hover{
+    border-color: #4267b2;
+}
+
+
+.email:hover{
+    border-color: #4267b2;
+}
+
+.info{
+    margin: 45px;
+    color: gray;
+    width: 500px;
+}
+
+span{
+    color: #4267b2;
+    cursor: pointer;
+}
+
+.register{
+    width: 420px;
+    background-color: #4267b2;
+    padding: 15px;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-left: 40px;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+span:hover{
+    color: lightslategray;
+}
+
+.register:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.back{
+    width: 420px;
+    border-radius: 50px;
+    padding: 15px;
+    margin: auto;
+    color: blue;
+    margin-top: 30px;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}

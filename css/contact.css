@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 40px;
+}
+
+a{
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 27px;
+}
+
+
+.login{
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+a:hover{
+    color: #73a2e4;
+    transition: all 0.4s ease-out;
+}
+
+
+.button{
+    padding: 10px 10px;
+    font-weight: 500;
+    background-color: #73a2e4;
+    border-radius: 4px;
+}
+
+.button:hover{
+    transform:scale(1.1);
+    transition: all 0.2s ease;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.btn{
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.fa-user{
+    margin-right: 10px;
+}
+
+
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left{
+    margin-top: 150px;
+}
+
+.Contact{
+    font-size: 50px;
+    width: 800px;
+}
+
+span{
+    color: blue;
+}
+
+.trip{
+    font-size: 25px;
+    color: gray;
+    width: 620px;
+    text-align: justify;
+    padding-top: 40px;
+    margin-left: 60px;
+}
+
+.call{
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 70px;
+}
+
+.information{
+    margin-left: 240px;
+    margin-top: 100px;
+}
+
+h2{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+h3{
+    margin-left: 100px;
+    margin-top: 70px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.check{
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 18px;
+    width: 900px;
+}
+
+.text1{
+    margin-left: 100px;
+    margin-top: 70px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.airlines{
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 800px;
+    font-size: 18px;
+}
+
+
+.lost{
+    margin-left: 100px;
+    margin-top: 30px;
+    color: blue;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.fa-angle-right{
+    margin-right: 10px;
+}
+
+span{
+    font-weight: 700;
+}
+
+.feedback{
+    margin-top: 70px;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.about{
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+.airport{
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.go{
+    margin-left: 100px;
+    margin-top: 30px;
+    color: blue;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.adresse{
+    margin: auto;
+    margin-left: 250px;
+    margin-top: 70px;
+}
+
+.box{
+    width: 600px;
+    height: 250px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.questions{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 30px;
+}
+
+.help{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.port{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+.tele{
+    margin-left: 30px;
+    margin-top: 5px;
+    color: blue;
+}
+
+.fa-phone{
+    margin-right: 15px;
+}
+
+
+hr{
+    margin-top: 100px;
+}
+
+
+
+footer{
+    margin: 100px;
+    margin-left: 200px;
+}
+
+
+.infoairport{
+    display: flex;
+}
+
+.midinfo{
+    margin-left: 200px;
+    cursor: pointer;
+}
+
+.arrivalsinfo{
+    margin: 20px;
+    color: #4267b2;
+    cursor: pointer;
+}
+
+.arrivalsinfo:hover{
+    color: #34568B;
+}
+
+.socialmedia1{
+    margin-left: 20px;
+    color: #4267b2;
+    cursor: pointer;
+}
+
+.socialmedia1:hover{
+    color: #34568B;
+
+}
+
+.socialmedia{
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+.fa-facebook{
+    margin-top: 20px;
+}
+
+.copy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.copyleft{
+    display: flex;
+    align-items: center;
+}
+
+.air{
+    font-size: 25px;
+    position: relative;
+    right: 34px;
+    margin: 50px;
+}
+
+.passengers{
+    margin-left: 20px;
+    color: #848484;
+    cursor: pointer;
+}
+
+.passengers:hover{
+    color: #4267b2;
+}
+
+.air2024{
+    color: #848484;
+}
+
+html,body{
+    height: 100vh;
+}
