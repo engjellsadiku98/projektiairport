@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    list-style: none;
+    text-decoration: none;
+}
+
+html,body{
+    height: 100vw;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 40px;
+}
+
+a{
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.login{
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+
+a:hover{
+    color: #73a2e4;
+    transition: all 0.4s ease-out;
+}
+
+
+.button{
+    padding: 10px 10px;
+    font-weight: 500;
+    background-color: #73a2e4;
+    border-radius: 4px;
+}
+
+
+.button:hover{
+    transform:scale(1.1);
+    transition: all 0.2s ease;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+.btn{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+
+
+
+#Search{
+    width: 500px;
+    padding: 20px;
+    font-size: 16px;
+    height: 80px;
+    border-radius: 50px;
+    border: 1px solid #c0c0c0;
+    position: absolute;
+    top: 500px;
+    left: 240px;
+}
+
+.fa-magnifying-glass{
+    position: absolute;
+    top: 531px;
+    color:#c0c0c0;
+    font-size: 20px;
+    left:690px;
+}
+
+
+
+.text{
+    position: absolute;
+    top: 400px;
+    left: 250px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+
+.line{
+    width: 390px;
+    height: 5px;
+    border-radius: 50px;
+    position: relative;
+    left: 5px;
+    top: -1px;
+    background-color: blue;
+}
+
+.box{
+    width: 400px;
+    height: 75px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0,0,0.1);
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-top: 100px;
+}
+
+
+.box:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+.arrivals{
+    font-size: 25px;
+    font-weight: 600;
+    color: #4267b2;
+    padding: 20px;
+}
+
+
+.fa-plane-arrival{
+    margin-right: 20px;
+}
+
+.fa-plane-departure{
+    margin-right: 20px;
+}
+
+.infos{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.airlinedepartures{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.box2{
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #4267b2;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+
+.fa-arrow-left{
+    margin-right: 10px;
+}
+
+.fa-arrow-right{
+    margin-left: 10px;
+}
+
+.today{
+    display: flex;
+    gap: 100px;
+}
+
+.fa-angle-down{
+    margin-left: 10px;
+}
+
+.june{
+    font-size: 20px;
+    color: #4267b2;
+}
+
+.clock{
+    font-size: 20px;
+    color: #4267b2;
+}
+
+
+table{
+    width: 1450px;
+    border-collapse: collapse;
+    border-radius: 20px;
+    margin-left: 120px;
+    margin-top: 100px;
+}
+
+th{
+    text-align: start;
+    padding: 15px;
+
+}
+
+tr{
+
+    background-color: #fafafa;
+    border-bottom: 1px solid rgba(0, 0, 0,0.1 );
+    
+}
+
+td{
+    color: #a9a9b5;
+    padding: 7px 20px;
+    
+}
+
+.form{
+    font-weight: bold;
+    color: #3a4750;
+}
+
+.form2{
+    font-weight: 500;
+    color: #005689;
+}
+.airline{
+    gap: 400px;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+.blue{
+    color: blue;
+}
+
+
+footer{
+    margin: 100px;
+    margin-left: 200px;
+}
+
+
+.infoairport{
+    display: flex;
+}
+
+.midinfo{
+    margin-left: 200px;
+    cursor: pointer;
+}
+
+.arrivalsinfo{
+    margin: 20px;
+    color: #4267b2;
+    cursor: pointer;
+}
+
+.arrivalsinfo:hover{
+    color: #34568B;
+}
+
+.socialmedia1{
+    margin-left: 20px;
+    color: #4267b2;
+    cursor: pointer;
+}
+
+.socialmedia1:hover{
+    color: #34568B;
+
+}
+
+.socialmedia{
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+.fa-facebook{
+    margin-top: 20px;
+}
+
+.copy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.copyleft{
+    display: flex;
+    align-items: center;
+}
+
+.air{
+    font-size: 25px;
+    position: relative;
+    right: 34px;
+    margin: 50px;
+}
+
+.passengers{
+    margin-left: 20px;
+    color: #848484;
+    cursor: pointer;
+}
+
+.passengers:hover{
+    color: #4267b2;
+}
+
+.air2024{
+    color: #848484;
+}
+
+hr{
+    margin-top: 100px;
+}
